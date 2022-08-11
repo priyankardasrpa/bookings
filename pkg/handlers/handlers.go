@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"example.com/hello-world/pkg/config"
-	"example.com/hello-world/pkg/models"
-	"example.com/hello-world/pkg/render"
+	"github.com/priyankardasrpa/bookings/pkg/config"
+	"github.com/priyankardasrpa/bookings/pkg/models"
+	"github.com/priyankardasrpa/bookings/pkg/render"
 )
 
 type Repository struct {
