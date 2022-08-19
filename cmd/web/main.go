@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/priyankardasrpa/bookings/pkg/config"
-	"github.com/priyankardasrpa/bookings/pkg/handlers"
-	"github.com/priyankardasrpa/bookings/pkg/render"
 	"github.com/alexedwards/scs/v2"
+	"github.com/priyankardasrpa/bookings/internal/config"
+	"github.com/priyankardasrpa/bookings/internal/handlers"
+	"github.com/priyankardasrpa/bookings/internal/render"
 )
 
 var portNumber = ":8080"

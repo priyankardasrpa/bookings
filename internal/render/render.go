@@ -9,8 +9,8 @@ import (
 	"text/template"
 
 	"github.com/justinas/nosurf"
-	"github.com/priyankardasrpa/bookings/pkg/config"
-	"github.com/priyankardasrpa/bookings/pkg/models"
+	"github.com/priyankardasrpa/bookings/internal/config"
+	"github.com/priyankardasrpa/bookings/internal/models"
 )
 
 var app *config.AppConfig

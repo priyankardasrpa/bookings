@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/priyankardasrpa/bookings/pkg/config"
-	"github.com/priyankardasrpa/bookings/pkg/models"
-	"github.com/priyankardasrpa/bookings/pkg/render"
+	"github.com/priyankardasrpa/bookings/internal/config"
+	"github.com/priyankardasrpa/bookings/internal/models"
+	"github.com/priyankardasrpa/bookings/internal/render"
 )
 
 type Repository struct {
