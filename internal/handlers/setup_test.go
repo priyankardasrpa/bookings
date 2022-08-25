@@ -55,7 +55,7 @@ func getRoutes() http.Handler {
 
 	// Here we use middlewares
 	mux.Use(middleware.Recoverer)
-	mux.Use(NoSurf)
+	//mux.Use(NoSurf)
 	mux.Use(SessionLoad)
 
 	// Here we use handlers
